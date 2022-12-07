@@ -1,0 +1,10 @@
+package com.latihan.service;
+
+import com.latihan.model.StudentModel;
+
+public interface IStudentService {
+ public StudentModel insertStudent(StudentModel student);
+ public StudentModel updateStudent(int Id,StudentModel student);
+ public StudentModel deleteStudent(int Id);
+ public StudentModel putIdStudent(int Id);
+}

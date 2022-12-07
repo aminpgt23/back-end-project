@@ -1,0 +1,10 @@
+package com.latihan.repository;
+
+import com.latihan.model.StudentModel;
+
+public interface IStudentRepository {
+	
+	public StudentModel insertStudent(StudentModel student);
+	public StudentModel updateStudent(int Id, StudentModel student);
+	public StudentModel deleteStudent(int Id);
+}
